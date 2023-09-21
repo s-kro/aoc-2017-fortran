@@ -1,0 +1,6 @@
+*.dat
+*~
+*.f90
+
+# Executables
+aoc_2017-[0-9+][a|b]
