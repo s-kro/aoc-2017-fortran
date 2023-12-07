@@ -7,7 +7,6 @@
       INTEGER :: io, status, ic
       INTEGER :: match = 0 ! game results
       CHARACTER :: c, prev_c = '_', first_c ! char, previous char
-      LOGICAL :: firsr_char_sem = .FALSE.
 
       OPEN(NEWUNIT=io,FILE="aoc_2017-1.dat",STATUS="OLD",ACTION="READ")
       DO
